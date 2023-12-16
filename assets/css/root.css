@@ -1,0 +1,16 @@
+:root {
+    --fs-sm: 16px;
+    --fs-md: 36px;
+    --color-gray:#808080;
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+.color-gray{
+    color: var(--color-gray);
+}

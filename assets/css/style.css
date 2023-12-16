@@ -1,0 +1,94 @@
+@import url(./root.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+.bg-img {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 0 !important;
+}
+
+body {
+    min-height: 100vh;
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-card {
+    max-width: 460px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 57px 88px 34px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+}
+
+.add-btn {
+    padding: 13px 35px;
+    border-radius: 4px;
+    background: #FFF;
+    color: #128DFF;
+    border: 1px solid #128DFF;
+}
+
+.save-btn {
+    padding: 13px 35px;
+    border-radius: 4px;
+    width: 138px;
+    background: #FFF;
+    color: #128DFF;
+    border: 1px solid #128DFF;
+}
+
+.mt-36 {
+    margin-top: 36px;
+}
+
+.mt-14 {
+    margin-top: 14px;
+}
+
+.mt-43 {
+    margin-top: 43px;
+}
+
+.ff-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.add-btn:hover {
+    color: #FFF;
+    background: linear-gradient(97deg, #128DFF -4.95%, #1444EF 109.04%) !important;
+}
+.save-btn:hover{
+    color: #FFF;
+    background: linear-gradient(97deg, #128DFF -4.95%, #1444EF 109.04%) !important;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-600{
+    font-weight: 600;
+}
